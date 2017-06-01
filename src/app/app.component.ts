@@ -1,8 +1,5 @@
 import { Component }            from '@angular/core';
-import { HeaderComponent }      from './header/app.headerComponent'
-import { NavComponent }         from './nav/app.navComponent'
-import { ContentAreaComponent } from './contentArea/app.contentAreaComponent'
-import { FooterComponent }      from './footer/app.footerComponent'
+import { PlayListComponent }from './playList/app.playListComponent'
 
 @Component({
   selector: 'my-app',

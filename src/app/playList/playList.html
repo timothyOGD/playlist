@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let Item of playList">{{ Item }}</li>
+</ul>
+<label for="track">Submit your own track:</label>
+<input type="text" id="track">
+<input type="submit" value="Add to playlist!" (click)="addToList">
