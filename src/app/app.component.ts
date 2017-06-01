@@ -1,8 +1,10 @@
 import { Component }            from '@angular/core';
-import { PlayListComponent }from './playList/app.playListComponent'
+import { PlayListComponent }    from './playList/app.playListComponent'
+import { TrackComponent }       from './track/app.trackComponent'
 
 @Component({
   selector: 'my-app',
-  templateUrl: './main.html',
+  templateUrl: './main.html'
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {
+}
